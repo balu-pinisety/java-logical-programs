@@ -19,8 +19,7 @@ public class ReverseNumber {
 		int number = Utility.getUserInteger();
 		int reverse=0;
 		// Finding the reverse of number
-		while(number != 0)
-		{
+		while(number != 0) {
 			int remainder=Utility.getRemainder(number, 10);
 			reverse=reverse*10+remainder;
 			number /= 10;
